@@ -1,8 +1,168 @@
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --hero-text-color: #ffffff;
+    --accent-color: #2196f3;
+    --button-back-color: #F5F4FA;
+    --background-color: #E5E5E5;
+    --background-footer-hero:#2F303A;
+    --footer-tel-color: rgb(255,255,255,0,6);
+    
+   }
+a,
+button {
+    text-decoration-line:none;
+    font-family: inherit;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    }
+ul {
+    list-style: none;
+}
+/* Header */
 .icon-web {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    font-weight: 700;
 }
 .icon-design{
     color: var(--primary-text-color);
     font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    font-weight: 700;
+}
+.site-nav-list .list,
+.site-nav-list .current-list{
+    color: var(--primary-text-color);
+    font-size:14px;
+    line-height: 1.17;
+    font-weight: 500;
+    }
+.site-nav-list .current-list{
+    color: var(--accent-color);
+    }
+.site-nav-list .list:hover,
+.site-nav-list .list:focus
+{    color: var(--accent-color);
+ }
+ .adress .item{
+    color: var(--primary-text-color);
+    font-size:14px;
+    line-height: 1.17;
+    font-weight: 500;
+ }
+ .adress .item:hover,
+ .adress .item:focus
+{    color: var(--accent-color);
+ }
+
+ /* Button */
+ .button {
+    color: var(--primary-text-color);
+    background-color: var(--button-back-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.button:hover,
+.button.focuse{
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+/* Examples */
+.examples .item{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.examples .list{
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+/* Footer */
+.footer{
+    background-color: var(--background-footer-hero);
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration-style: none;
+}
+.footer .item{
+    color: var(--footer-tel-color);
+}
+.footer .icon-web {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    font-weight: 700;
+}
+.footer .icon-design{
+    color: var(--hero-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    font-weight: 700;
+}
+.footer .adress{
+    color: var(--hero-text-color);
+}
+/* Hero */
+.hero{
+    background-color: var(--background-footer-hero);
+    
+}
+.hero .hero-title{
+    color: var(--hero-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.hero .button{
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+/* benefits */
+.benefits .item{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.benefits .list{
+   color: var(--secondary-text-color);
+   font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* About our work*/
+.sectionabout .title,
+.sectionteam .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.sectionteam{
+    background-color: var(--button-back-color);
+}
+.sectionteam .name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+.sectionteam .position{
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
 }
